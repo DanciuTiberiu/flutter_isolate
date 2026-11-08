@@ -1,3 +1,8 @@
+## 2.1.0+1
+* (Android) Drop the unused `io.flutter.view.FlutterRunArguments` import. That
+  class was removed from the Flutter engine, so the plugin failed to compile
+  with `cannot find symbol` on Flutter versions that no longer ship it.
+
 ## 2.1.0-pre
 * (Android) require AGP 7.4.2 and compileSdk 34
 
